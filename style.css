@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  margin-top: 30px;
+  color: #222;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  gap: 16px;
+}
+.gallery-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 210px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  cursor: pointer;
+  aspect-ratio: 1 / 1;
+}
+.gallery-item:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+/* Modal effect */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.8);
+  align-items: center;
+  justify-content: center;
+}
+.modal img {
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #222;
+  margin: auto;
+}
+#close {
+  color: #fff;
+  position: absolute;
+  top: 20px; right: 40px;
+  font-size: 38px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100;
+}
