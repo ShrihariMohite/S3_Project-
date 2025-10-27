@@ -190,7 +190,7 @@ Repo: https://github.com/ShrihariMohite/S3_Project-.git
 
 Branch: main
 Live URL: http://mystaticsite.ddns.net
-note : open this URL in Firefox
+
 
 
 AWS:
