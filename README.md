@@ -186,10 +186,12 @@ Visit:http://mystaticsite.ddns.net
 
 Project: Static Site on S3 + Cloudflare
 Date: 2025-10-26
-Repo: https://github.com/your-account/my-static-site
+Repo: https://github.com/ShrihariMohite/S3_Project-.git
 
 Branch: main
-Live URL: https://mystaticsite.ddns.net
+Live URL: http://mystaticsite.ddns.net
+note : open this URL in Firefox
+
 
 AWS:
 
