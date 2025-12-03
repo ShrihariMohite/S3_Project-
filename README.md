@@ -178,7 +178,7 @@ TTL: Auto
 
 Click Create
 
-Visit:http://mystaticsite.ddns.net
+Visit:http://naturegallery.ddns.net
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -189,9 +189,8 @@ Date: 2025-10-26
 Repo: https://github.com/ShrihariMohite/S3_Project-.git
 
 Branch: main
-Live URL: http://mystaticsite.ddns.net
 
-
+Live URL: http://naturegallery.ddns.net
 
 AWS:
 
